@@ -1,7 +1,7 @@
 import tweepy
 import time
 from ProjectKeys import consumer_key,consumer_secret,access_token,access_token_secret
-
+# This will not work for you if you don't have ProjectKeys. I didn't include them for security.
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 
